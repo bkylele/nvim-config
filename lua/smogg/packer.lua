@@ -34,6 +34,7 @@ use {
 }
 
 
+use('ThePrimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-surround')
 use('tpope/vim-commentary')
