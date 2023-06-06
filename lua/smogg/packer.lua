@@ -38,14 +38,14 @@ use('ThePrimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-surround')
 use('tpope/vim-commentary')
-use('tpope/vim-fugitive')
+-- use('tpope/vim-fugitive')  I'm just gonna do the !
 
 use('jbyuki/venn.nvim')
 use('seandewar/nvimesweeper')
-use('seandewar/killersheep.nvim')
 use('ThePrimeagen/vim-be-good')
 use('eandrju/cellular-automaton.nvim')
-use('alec-gibson/nvim-tetris')
+-- use('alec-gibson/nvim-tetris')
+-- use('seandewar/killersheep.nvim')
 
 use('lervag/vimtex')
 
