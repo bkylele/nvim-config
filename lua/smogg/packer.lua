@@ -24,7 +24,10 @@ return require('packer').startup(function(use)
         'nvim-orgmode/orgmode', config = function()
             require('orgmode').setup{}
         end,
-        requires = {{'akinsho/org-bullets.nvim'}}
+        requires = {
+            {'akinsho/org-bullets.nvim'},
+            {'michaelb/sniprun', run = 'sh install.sh'},
+        }
     }
 
     use {
