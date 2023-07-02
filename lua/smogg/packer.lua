@@ -26,7 +26,6 @@ return require('packer').startup(function(use)
         end,
         requires = {
             {'akinsho/org-bullets.nvim'},
-            {'michaelb/sniprun', run = 'sh install.sh'},
         }
     }
 
@@ -61,6 +60,7 @@ return require('packer').startup(function(use)
         'catppuccin/nvim',
         as = 'catppuccin'
     }
+    use{'michaelb/sniprun', run = 'sh install.sh'}
     use('jbyuki/venn.nvim')
     use('dhruvasagar/vim-table-mode')
 
