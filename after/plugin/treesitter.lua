@@ -1,3 +1,5 @@
+-- Load custom treesitter grammar for org filetype
+require('orgmode').setup_ts_grammar()
 
 require"nvim-treesitter.configs".setup{
     ensure_installed = { "c", "python", "vim", "json", "html" },
@@ -8,7 +10,7 @@ require"nvim-treesitter.configs".setup{
 
         disable = { "tex" },
 
-        additional_vim_regex_highlighting = false,
+        additional_vim_regex_highlighting = {'org'},
     },
 }
 

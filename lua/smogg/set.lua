@@ -1,3 +1,8 @@
+require("catppuccin").setup({
+    transparent_background = false,
+    term_colors = true
+})
+
 vim.cmd("colorscheme catppuccin")
 
 vim.opt.guicursor = ""
@@ -23,3 +28,6 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.scrolloff = 8
+
+-- org mode links
+vim.opt.conceallevel = 2
