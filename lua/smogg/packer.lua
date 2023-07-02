@@ -60,7 +60,6 @@ return require('packer').startup(function(use)
     }
     use('jbyuki/venn.nvim')
     use('dhruvasagar/vim-table-mode')
-    use('lukas-reineke/headlines.nvim')
 
     -- use('ThePrimeagen/harpoon')   -- Might come back to this later
     use('mbbill/undotree')
