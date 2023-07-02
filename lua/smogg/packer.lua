@@ -1,10 +1,8 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
--- Only required if you have packer configured as `opt`
+
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
     use {
@@ -60,15 +58,14 @@ return require('packer').startup(function(use)
         'catppuccin/nvim',
         as = 'catppuccin'
     }
-
-    -- use('ThePrimeagen/harpoon')
-    use('mbbill/undotree')
-    use('tpope/vim-surround')
-    use('tpope/vim-commentary')
-
     use('jbyuki/venn.nvim')
     use('dhruvasagar/vim-table-mode')
     use('lukas-reineke/headlines.nvim')
+
+    -- use('ThePrimeagen/harpoon')   -- Might come back to this later
+    use('mbbill/undotree')
+    use('tpope/vim-surround')
+    use('tpope/vim-commentary')
 
     use('seandewar/nvimesweeper')
     use('ThePrimeagen/vim-be-good')
